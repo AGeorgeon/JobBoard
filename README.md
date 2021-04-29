@@ -25,7 +25,7 @@ Utilisation des frameworks : MaterializeCSS, Vuex, axios
 <h2>Création d'un profil d'entreprise</h2>
 <img src="./zReadme/Creation_Entreprise.PNG">
 
-<h2>Dashboard d'un utilisateur avec sa description et ses annonces postulé</h2>
+<h2>Dashboard d'un utilisateur avec sa description et ses annonces postulées</h2>
 <img src="./zReadme/Dashboard_Utilisateur.PNG">
 
 
