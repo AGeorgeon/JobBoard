@@ -10,6 +10,8 @@ Utilisation des frameworks : MaterializeCSS, Vuex, axios
 
 
 ## Quelque photo du projet
+<h4>Page Accueil</h4>
+<img src="./zReadme/Home_Page.PNG">
 ![Page d'accueil]("./zReadme/Home_Page.png")
 ![Postuler une annonce sur la platefome](./zReadme/Postuler_Annonce.png)
 ![Visualisation des entreprises qui ont une annonce](./zReadme/Visualisation_entreprise.png)
