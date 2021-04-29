@@ -103,7 +103,7 @@ section {
 }
 
 .box:nth-child(1) {
-  background-color: #008c9e;
+  background-color: #a59e8c;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;

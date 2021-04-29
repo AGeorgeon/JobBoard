@@ -147,4 +147,7 @@ export default {
 </script>
 
 <style>
+.btn{
+  background: #a59e8c !important;
+}
 </style>

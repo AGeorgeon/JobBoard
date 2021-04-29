@@ -9,9 +9,9 @@
         <ul class="right hide-on-med-and-down">
           <li><router-link to="/">Home</router-link></li>
           <li><router-link to="/company/index">Companies</router-link></li>
-          <li>
+          <!-- <li>
             <router-link to="/advertisement/index">Advertisements</router-link>
-          </li>
+          </li> -->
           <li v-show="!isLoggedIn">
             <span><router-link to="/login">Login</router-link></span>
           </li>

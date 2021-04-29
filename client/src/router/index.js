@@ -43,11 +43,6 @@ Vue.use(Router)
 let router = new Router({
   mode: 'history',
   routes: [{
-      path: '/',
-      name: 'Home',
-      component: Home
-    },
-    {
       path: '/company/create',
       name: 'Company_create',
       component: CompanyCreate,
@@ -84,7 +79,7 @@ let router = new Router({
       }
     },
     {
-      path: '/advertisement/index',
+      path: '/',
       name: 'Advertisement_index',
       component: AdvertisementIndex
     },

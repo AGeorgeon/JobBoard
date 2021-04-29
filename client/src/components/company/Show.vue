@@ -46,14 +46,14 @@
         	    </section>
         	  </div>
         	</div>
-      	</div>
+        </div>
+      </div>
     </div>
-  </div>
   </div>
 </template>
 
 
-<!--------------------------------------------------	JS	------------------------------------->
+<!-------------------------------------------------- JS ------------------------------------->
 <script>
 import axios from "axios";
 import Navigation from "../partials/Navigation";
@@ -88,7 +88,7 @@ export default {
 
 
 
-<!--------------------------------------------------	CSS	------------------------------------->
+<!-------------------------------------------------- CSS ------------------------------------->
 <style scoped>
 main {
   width: 100%;
@@ -137,7 +137,7 @@ section {
 }
 
 .box:nth-child(1) {
-  background-color: #008c9e;
+  background-color: #a59e8c;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
@@ -164,5 +164,8 @@ ul {
 }
 .card {
   width: 100%;
+}
+a{
+  color: black;
 }
 </style>

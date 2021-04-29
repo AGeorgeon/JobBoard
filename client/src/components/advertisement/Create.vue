@@ -204,4 +204,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.btn{
+  background: #CCB69B !important;
+}
+</style>

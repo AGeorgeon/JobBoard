@@ -147,4 +147,7 @@ export default {
 .couleur{
   background-color: #938B76  !important;
 }
+.btn{
+  background-color: #938B76  !important;
+}
 </style>
