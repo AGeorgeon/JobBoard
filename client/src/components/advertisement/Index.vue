@@ -94,7 +94,7 @@
                 {{ advertisement.description }}
               </div>
               <div class="card-action center">
-                <a class="btn" :href="candidacy_url_create + advertisement._id">Apply</a>
+                <a class="btn couleur" :href="candidacy_url_create + advertisement._id">Apply</a>
               </div>
             </div>
           </div>
@@ -144,4 +144,7 @@ export default {
 </script>
 
 <style>
+.couleur{
+  background-color: #938B76  !important;
+}
 </style>

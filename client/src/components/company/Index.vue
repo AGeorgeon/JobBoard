@@ -9,15 +9,11 @@
             <!-------------------------------------------------->
             <div class="col s12 m6 l4" v-for="company in companies" :key="company._id">
               <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <section id="grid">
-                    <div class="box">
-                      <div class="box-content box-titre">
-                        <h4> {{ company.name }} </h4> |
-                        <a :href="company_url + company._id">Seen Company</a>
-                      </div>
-                    </div>
-                  </section>
+                <div class="card-content backIcon">
+                  <div class="box-titre">
+                    <h4> {{ company.name }} </h4>
+                    <btn :href="company_url + company._id" class="btn couleurBouton" >Seen Company</btn>
+                  </div>
                 </div>
               </div>
             </div>
@@ -65,13 +61,11 @@ main {
   justify-content: center;
 }
 
-section {
-  width: 100%;
-  max-width: 862px;
-  height: 18vh;
-  max-height: 500px;
-  background-color: black;
-  color: white;
+.couleurBouton{
+  background-color: #938B76 !important;
+}
+.backIcon{
+  background-color: #D7CEB2 !important;
 }
 
 #grid {
@@ -81,35 +75,10 @@ section {
   width: 100%;
 }
 
-.box {
-  display: flex;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-}
-.box-content {
-  width: 100%;
-}
-.box-info {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 .box-titre {
   text-align: left;
   padding-left: 50px;
 }
-
-.box:nth-child(1) {
-  background-color: #008c9e;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 1;
-  text-align: center;
-}
-
 
 ul {
   margin-right: 9%;

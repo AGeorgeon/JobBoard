@@ -1,8 +1,8 @@
 <template>
   <div>
-    <nav class="teal">
+    <nav id="couleur">
       <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">JobBoard</a>
+        <a href="#" class="brand-logo marginTitle">JobBoard</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"
           ><i class="material-icons">menu</i></a
         >
@@ -122,8 +122,16 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 nav {
   margin-bottom: 75px;
+}
+
+#couleur{
+  background-color: #A59E8C;
+}
+
+.marginTitle{
+  padding-left: 80px;
 }
 </style>
