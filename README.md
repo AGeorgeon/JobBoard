@@ -14,19 +14,19 @@ Utilisation des frameworks : MaterializeCSS, Vuex, axios
 <img src="./zReadme/Home_Page.PNG">
 
 <h2>Postuler une annonce sur la platefome</h2>
-<img src="./zReadme/Postuler_Annonce.png">
+<img src="./zReadme/Postuler_Annonce.PNG">
 
 <h2>Visualisation des entreprises qui ont une annonce</h2>
-<img src="./zReadme/Visualisation_entreprise.png">
+<img src="./zReadme/Visualisation_entreprise.PNG">
 
 <h2>Création d'une annonce</h2>
-<img src="./zReadme/Creation_Annonce.png">
+<img src="./zReadme/Creation_Annonce.PNG">
 
 <h2>Création d'un profil d'entreprise</h2>
-<img src="./zReadme/Création_Entreprise.png">
+<img src="./zReadme/Creation_Entreprise.PNG">
 
 <h2>Dashboard d'un utilisateur avec sa description et ses annonces postulé</h2>
-<img src="./zReadme/Dashboard_Utilisateur.png">
+<img src="./zReadme/Dashboard_Utilisateur.PNG">
 
 
 
